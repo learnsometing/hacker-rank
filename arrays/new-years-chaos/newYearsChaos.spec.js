@@ -6,6 +6,6 @@ describe('minimumBribes', () => {
   });
 
   it('should return the minimum number of bribes required to form the line', () => {
-    expect(minimumBribes(2, 1, 5, 3, 4)).toEqual(3);
+    expect(minimumBribes([2, 1, 5, 3, 4])).toEqual(3);
   })
 })
